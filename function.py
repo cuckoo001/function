@@ -9,8 +9,8 @@ print('-----------')
 print('^ == ^')
 wash(True)
 print('==========')
-def add(x, y):
+def add(x=0, y=0):
 	print(x + y)
-add(3, 4)
-add(123, 100)
+add()
+
 
