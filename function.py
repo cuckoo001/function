@@ -16,5 +16,15 @@ add(5)
 add(y=6)
 add(x=5, y=6)
 
+#  return 回传 ，function如果有return,就可以把执行结果存下来
+def add(x, y):
+	return x + y
+result = add(4, 5)
+print(result)
 
+def average(numbers):
+	return sum(numbers) / len(numbers)  #算出numbers清单的平均值
+print(average([1, 2, 3]))
+print(average([10, 2, 30]))
+print(average([100, 20, 325]))
 
